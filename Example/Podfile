@@ -1,7 +1,8 @@
 use_frameworks!
 
 target 'iOS_Example' do
-  pod 'iOS', :path => '../'
+  pod 'Foundation+', :path => '../Foundation.plus'
+  pod 'UI+', :path => '../UIKit.plus'
 
   target 'iOS_Tests' do
     inherit! :search_paths

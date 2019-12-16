@@ -1,5 +1,4 @@
 import XCTest
-import iOS
 
 class Tests: XCTestCase {
     

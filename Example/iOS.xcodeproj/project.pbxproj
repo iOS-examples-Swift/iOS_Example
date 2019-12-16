@@ -291,11 +291,13 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-iOS_Example/Pods-iOS_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/iOS/iOS.framework",
+				"${BUILT_PRODUCTS_DIR}/Foundation+/Foundation_.framework",
+				"${BUILT_PRODUCTS_DIR}/UI+/UI_.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/iOS.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Foundation_.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/UI_.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;

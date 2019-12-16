@@ -1,0 +1,21 @@
+PODS:
+  - "Foundation+ (0.1.5)"
+  - "UI+ (0.0.4)"
+
+DEPENDENCIES:
+  - "Foundation+ (from `../Foundation.plus`)"
+  - "UI+ (from `../UIKit.plus`)"
+
+EXTERNAL SOURCES:
+  "Foundation+":
+    :path: "../Foundation.plus"
+  "UI+":
+    :path: "../UIKit.plus"
+
+SPEC CHECKSUMS:
+  "Foundation+": c3db7ed3e603286ce8992e1c7704c90755ddee03
+  "UI+": be363101292cf8fbe0be305b29cb9f10a2c19141
+
+PODFILE CHECKSUM: 5ede9d9124e747852d23308969f96c2dd36aaf45
+
+COCOAPODS: 1.8.4
