@@ -1,4 +1,5 @@
 import XCTest
+import Foundation_
 
 class Tests: XCTestCase {
     
@@ -22,6 +23,11 @@ class Tests: XCTestCase {
         self.measure() {
             // Put the code you want to measure the time of here.
         }
+    }
+    
+    func testCharacter() {
+        let res = Character("f") - Character("a")
+        XCTAssert(res > 0)
     }
     
 }

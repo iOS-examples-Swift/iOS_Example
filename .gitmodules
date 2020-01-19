@@ -1,0 +1,8 @@
+[submodule "Foundation.plus"]
+	path = Foundation.plus
+	url = git@github.com:CNKCQ/Foundation.plus.git
+	branch = master
+[submodule "UIKit.plus"]
+	path = UIKit.plus
+	url = git@github.com:CNKCQ/UIKit.plus.git
+	branch = master
